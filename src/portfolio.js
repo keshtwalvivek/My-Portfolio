@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Vivek Keshtwal",
+  title: "Hi all, I'm Vivek",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -85,13 +85,18 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "react native",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "nextjs",
+      fontAwesomeClassname: "fab fa-react"
     },
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -126,23 +131,28 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Dev Bhoomi Uttarakhand University",
+      logo: require("./assets/images/DBUU.jpg"),
+      subHeader: "Bachelor of Computer Science",
+      duration: "September 2021 - April 2024",
+      desc: "Focused on core computer science fundamentals with hands-on experience in web development, software engineering, and modern frontend technologies.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Studied Data Structures, Algorithms, Operating Systems, DBMS, and Computer Networks",
+        "Built responsive web applications using HTML, CSS, JavaScript, React, and REST APIs",
+        "Worked on academic and personal projects following real-world software development practices",
+        "Gained experience with Git, GitHub, and collaborative development during coursework"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "GIC Kandakhal ",
+      logo: require("./assets/images/school.jpg"),
+      subHeader: "Schooling - Science Stream",
+      duration: "April 2016 - April 2020",
+      desc: "Completed schooling in the Science stream with a strong academic foundation.",
+      descBullets: [
+        "Mathematics and Science-focused curriculum",
+        "Built fundamentals for higher studies in computer science"
+      ]
     }
   ]
 };
@@ -372,8 +382,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-9027846327",
+  email_address: "vivekkeshtwal09@gmail.com"
 };
 
 // Twitter Section
@@ -383,7 +393,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
