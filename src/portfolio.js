@@ -33,15 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/keshtwalvivek?tab=repositories",
+  linkedin: "https://www.linkedin.com/in/vivek-keshtwal/",
+  gmail: "vivekkeshtwal09@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -105,10 +99,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
+
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -181,32 +172,34 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Frontend Developer",
+      company: "SGI Tech Labs",
+      companylogo: require("./assets/images/sgi.jpg"), // add logo image
+      date: "August 2024 – Present",
+      desc: "Working as a Frontend Developer at SGI Tech Labs, contributing to both web and mobile application development across multiple projects.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Worked on web development projects using React.js and Next.js, building responsive and scalable user interfaces.",
+        "Collaborated with backend teams to integrate APIs and improve application performance.",
+        "From April 2025, started working on React Native mobile application development within the same organization.",
+        "Developed and maintained cross-platform mobile features using React Native for production applications."
       ]
     },
+
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "MERN Stack Developer Intern",
+      company: "Think Future Technology",
+      companylogo: require("./assets/images/tft.png"), // add logo image
+      date: "3 Months Internship",
+      desc: "Completed a 3-month internship focused on full-stack web development using the MERN stack.",
+      descBullets: [
+        "Worked on MongoDB, Express.js, React.js, and Node.js to build full-stack web applications.",
+        "Developed REST APIs and integrated them with frontend components.",
+        "Implemented authentication, CRUD operations, and responsive UI designs.",
+        "Gained hands-on experience working in an agile development environment."
+      ]
     }
   ]
 };
@@ -262,50 +255,41 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "MERN Stack Full-Stack Developer",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed a comprehensive Full-Stack Development course using the MERN stack (MongoDB, Express.js, React.js, Node.js), building real-world projects and production-ready applications.",
+      image: require("./assets/images/MERN.avif"), // add your MERN image here
+      imageAlt: "MERN Stack Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "/mern.pdf" // add certificate link (Google Drive / platform link)
         }
       ]
     },
+    // {
+    //   title: "DevOps Fundamentals",
+    //   subtitle:
+    //     "Completed DevOps course on Udemy covering CI/CD, GitHub Actions, Docker, cloud deployment, and automation workflows.",
+    //   image: require("./assets/images/devops.webp"), // add image
+    //   imageAlt: "DevOps Logo",
+    //   footerLink: [
+    //     {
+    //       name: "Udemy Certification",
+    //       url: ""
+    //     }
+    //   ]
+    // },
     {
-      title: "Google Assistant Action",
+      title: "React Native Mobile App Developer",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Completed React Native course on Udemy, learning to build cross-platform mobile applications with real-world projects.",
+      image: require("./assets/images/reactnative.png"), // add image
+      imageAlt: "React Native Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Udemy Certification",
+          url: "" // place PDF in public folder
         }
       ]
     }
